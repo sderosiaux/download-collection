@@ -1,5 +1,5 @@
 {
-  "name": "download-href",
+  "name": "download-collection",
   "version": "1.0.0",
   "description": "Download the content from a list of urls automatically",
   "main": "app.js",
@@ -11,5 +11,23 @@
   "dependencies": {
     "debug": "^2.1.3",
     "request": "^2.53.0"
-  }
+  },
+  "bin": {
+    "download-collection": "download-collection.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chtefi/download-collection.git"
+  },
+  "keywords": [
+    "download",
+    "file",
+    "collection",
+    "request"
+  ],
+  "bugs": {
+    "url": "https://github.com/chtefi/download-collection/issues"
+  },
+  "homepage": "https://github.com/chtefi/download-collection"
 }
