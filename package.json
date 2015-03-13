@@ -1,0 +1,15 @@
+{
+  "name": "download-href",
+  "version": "1.0.0",
+  "description": "Download a list of urls automatically",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stéphane D.",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.1.3",
+    "request": "^2.53.0"
+  }
+}
