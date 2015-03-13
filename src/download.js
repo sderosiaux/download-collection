@@ -18,7 +18,7 @@ module.exports = function(links, opts) {
     });
 
     // merge default options
-    util._extend({ baseUrl: '', rename: false }, opts);
+    opts = util._extend({ baseUrl: '', rename: false }, opts);
 
     links.forEach(function(link) {
         // ignore empty link
