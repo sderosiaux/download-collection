@@ -33,3 +33,7 @@ $ cat urls | node app.js
   download-collection https://farm8.staticflickr.com/7585/16797177115_6eb78d6009_b.jpg +123ms into 16797177115_6eb78d6009_b.jpg image/jpeg
 ```
 
+If you installed it globally `node install -g download-collection`, you can simplify do
+```
+$ cat urls | download-collection
+```

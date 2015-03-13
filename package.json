@@ -1,6 +1,6 @@
 {
   "name": "download-collection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download the content from a list of urls automatically",
   "main": "app.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "request": "^2.53.0"
   },
   "bin": {
-    "download-collection": "download-collection.js"
+    "download-collection": "bin/download-collection.js"
   },
   "devDependencies": {},
   "repository": {
