@@ -1,13 +1,13 @@
 Download the content from a list of urls automatically.
 
-# How to : as a dependency
+## How to : as a dependency
 
 ```
 var download = require('download-collection');
 download([ 'http://c4.staticflickr.com/8/7585/16171080784_3d3a169714_h.jpg' ]);
 ```
 
-# Options
+## Options
 
 `download()` takes 2 parameters :
 - an array of urls (strings)
@@ -23,7 +23,7 @@ download(links, {
 - `rename`: you can provide a name and `{counter}` will be automatically increased for each file.
 - `baseUrl`: prefix for the urls to use if you don't specify it in the array of urls
 
-# How to : as a command
+## How to : as a command
 
 By default, the app reads stdin and downloads the content from the provided urls (one line = one url).
 
