@@ -17,7 +17,8 @@ download([ 'http://c4.staticflickr.com/8/7585/16171080784_3d3a169714_h.jpg' ]);
 download(links, {
 	rename: 'image-{counter}.jpg'
     baseUrl: 'http://www.mypic.com/'
-});```
+});
+```
 
 - `rename`: you can provide a name and `{counter}` will be automatically increased for each file.
 - `baseUrl`: prefix for the urls to use if you don't specify it in the array of urls
