@@ -32,7 +32,7 @@ module.exports = function(links, opts) {
             .on('response', function(response) {
                 // only handle the 200
                 if (response.statusCode !== 200) {
-                    error(uri + ' statusCode ' + response.statusCode);
+                    console.error(uri + ' statusCode ' + response.statusCode)
                     return;
                 }
 
